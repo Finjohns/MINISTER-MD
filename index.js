@@ -95,7 +95,7 @@ async function startKeith() {
       const currentTime = Date.now();
       if (currentTime - lastTextTime >= messageDelay) {
         await client.sendMessage(callerId, {
-          text: '```❗📵I AM KEITH MD | I REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD```.',
+          text: '```❗📵I AM MINISTER MD | I REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD```.',
         });
         lastTextTime = currentTime;
       } else {
@@ -133,7 +133,7 @@ async function startKeith() {
     setInterval(() => {
       const date = new Date();
       client.updateProfileStatus(
-        `${botname} is active 24/7\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi' })}.`
+        `${botname} AM active dud get back to work\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi' })}.`
       );
     }, 10 * 1000);
   }
