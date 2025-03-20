@@ -12,7 +12,7 @@ const {
   parseMention, getRandom, fetchBuffer
 } = require('./lib/botFunctions.js');
 
-const daddy = "254748387615@s.whatsapp.net";
+const daddy = "254769365617@s.whatsapp.net";
 const { exec, spawn, execSync } = require("child_process");
 const { TelegraPh, UploadFileUgu } = require("./lib/toUrl");
 const uploadtoimgur = require('./lib/Imgur');
